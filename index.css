@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+    padding: 0;
+    background-color: #24252a;
+}
+
+*:not(.downloadb) {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a,
+button,
+li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #1a1a1a;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    background-color: #1a1a1a
+}
+
+.nav__links li {
+    padding: 0px 20px;
+    display: inline-block;
+    background-color: #1a1a1a
+}
+
+.nav__links li a {
+    color: white;
+    transition: color 0.3s ease 0s;
+    background-color: #1a1a1a
+}
+
+.nav__links li a:hover {
+    color: rgba(47, 211, 179, 0.7);
+}
+
+.cta {
+    padding: 9px 25px;
+    background-color: rgb(45, 143, 124);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+
+button {
+    page-break-inside: 9px 25px;
+    background-color: rgbargb(45, 143, 124);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta:hover,
+button:hover {
+    background-color: rgba(56, 186, 159, 0.5);
+}
+
+.downloadb {
+    padding: 9px 25px;
+    background-color: rgb(45, 143, 124);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.downloadb:hover,
+button:hover {
+    background-color: rgba(56, 186, 159, 0.5);
+}
+
+.licencediv {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+    max-width: 50%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.licencediv ul {
+    padding-left: 55px;
+}
+
+.contact {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+    max-width: 50%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
